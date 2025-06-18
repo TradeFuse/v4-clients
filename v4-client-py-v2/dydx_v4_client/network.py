@@ -72,6 +72,8 @@ TESTNET = make_testnet()
 TESTNET_FAUCET = "https://faucet.v4testnet.dydx.exchange"
 TESTNET_NOBLE = "https://rpc.testnet.noble.strange.love"
 
+MAINNET = make_mainnet()
+
 local_node = partial(
     NodeConfig,
     "localdydxprotocol",
